@@ -1,0 +1,80 @@
+.algo{
+  height: 120vh;
+}
+
+.grid {
+    position: absolute;
+    z-index: 5;
+    top:100px;
+    margin:auto;
+    background-image: url('../images/Gradient.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.gridopaque{
+  position: absolute;
+  z-index: 5;
+  top:100px;
+  margin:auto;
+  opacity: 50%;
+  background-image: url('../images/Gradient.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rowdiv{
+    display: flex;
+}
+
+.popup{
+  position: relative;
+  z-index: 10;
+  top:20vh;
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  backdrop-filter: blur(2px);
+  text-align: left;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: black 10px 10px 10px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.btn{
+  margin:10px;
+}
+
+ul,h3,h4,h5{
+  width: 90%;
+  margin:auto;
+}
+
+h3{
+  margin-top: 10px;
+}
+
+.popup .btn{
+  text-align: center;
+  margin-left: 30px;
+}
+
+
+@media screen and (max-width:900px) {
+  h4,ul,h5{
+    font-size: 12px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  .popup{
+    top:10vh;
+  }
+}
